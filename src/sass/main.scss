@@ -1,0 +1,41 @@
+@import './utils/variables';
+@import './base/normalize';
+@import './base/nullifier';
+@import './utils/placeholders';
+@import './utils/breakpoints';
+// анимации
+@import './utils/animations';
+
+@import './components/common';
+
+// хедер
+@import './components/header';
+@import './components/drop-down-mobile-menu';
+@import './components/header-burger-btn';
+
+// секция-герой
+@import './components/hero-section';
+@import './components/hero_btn';
+@import './components/backdrop';
+@import './components/modal_checkbox';
+@import './components/hero-section-modal';
+
+// Секция о нашей студии
+@import './components/about_us_section';
+
+// Секция : Чем мы занимаемся
+@import './components/wawd_section';
+
+// секция нашей команды
+@import './components/our-team-section';
+
+// секция клиентов
+@import './components/our-clients-section';
+
+//Портфолио
+@import './components/portfolio-filter-btns';
+@import './components/portfolio';
+
+// футер
+@import './components/footer';
+@import './components/footer-btn';
